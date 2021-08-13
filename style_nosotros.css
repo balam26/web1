@@ -1,0 +1,83 @@
+#menu{
+    width: 340px;
+    height:100%;
+    position: fixed;
+    background-color: #f3e1df;
+   
+    
+}
+
+#fondo{
+    height: 100%;
+    margin-left: 340px;
+    width: calc(100% - 340px);
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:url(../imagenes/cesar.jpeg)
+}
+
+.letradeltitulo{
+    height: 115px;
+    font-family: 'Lobster', cursive;
+    font-size: 1.7em;
+    font-weight: 300px;
+    text-align: center;
+    padding-right: 0px;
+    margin-top: 50px;
+    color: #2c2c2c;
+}
+
+h1{
+   display: inline;
+   
+}
+
+h2{
+    height: 10px;
+    margin: 6px;
+}
+
+#navegacion{
+    margin-left: 9%;
+    margin-top: 40%;
+    font-size: 2.3em;
+    font-family: 'Bebas Neue', cursive
+
+    
+}
+
+a:link, a:visited, a:active{
+    text-decoration: none;
+}
+
+
+
+a{
+    color: #2c2c2c;
+}
+
+#footer{
+    position:fixed;
+    width: 340px;
+    padding-top: 0;
+    bottom: 0;
+    padding: 10px;
+    z-index: 1001;
+    left: 0;
+    background-color: #f3e1df;
+    line-height: 1px;
+}
+
+#sociales {
+    font-size: 25px;
+    margin: 0 -88px 0 88px;
+    
+}
+.pie{
+    font-family: 'Bebas Neue', cursive;
+    color: #000000e0;
+    font-size: 1em;
+    padding-top: 8px;
+}
